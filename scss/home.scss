@@ -1,0 +1,141 @@
+.content {
+    width: 100%;
+    background: url(/img/main_slider.png);
+    // background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+
+    .content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-img {
+        width: 503px;
+        height: 715px;
+        left: 169px;
+    }
+
+    .container-title {
+        max-width: 635px;
+        margin-left: 20px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 6.8rem;
+        line-height: 134px;
+        color: var(--black);
+        margin-bottom: 50px;
+    }
+
+    .title-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: var(--gray);
+    }
+
+}
+
+.main {
+    margin-top: 150px;
+
+    .main-title {
+        width: 730px;
+        height: 185px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 51px;
+        color: var(--black);
+        margin-bottom: 35px;
+    }
+
+    .main-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: var(--gray);
+    }
+
+    .block-mo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .block-img {
+        width: 270px;
+        height: 270px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .img-hover {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        .img-mo {
+            margin-top: 100px;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .img-hover::before {
+        position: absolute;
+        content: '';
+        background: #FFFFFF;
+        width: 100%;
+        height: 100%;
+        opacity: 80.17%;
+    }
+
+
+    .container {
+        width: 1100px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    .btn-five {
+        margin-left: 20px;
+    }
+
+    .btn {
+        height: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        border: 1px solid #8F8D8D;
+        background: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        color: #8F8D8D;
+        width: 190px;
+        transition: 0.7s;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #FFEF35;
+        border: 1px solid #FFEF35;
+    }
+
+}
